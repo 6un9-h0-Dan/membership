@@ -113,7 +113,7 @@ GEM
       activerecord
       database_cleaner (~> 1.8.0)
     diff-lcs (1.4.4)
-    discourse_api (0.42.0)
+    discourse_api (0.44.0)
       faraday (~> 1.0)
       faraday_middleware (~> 1.0)
       rack (>= 1.6)
@@ -134,8 +134,9 @@ GEM
       railties (>= 4.2.0)
     faker (2.13.0)
       i18n (>= 1.6, < 2)
-    faraday (1.0.1)
+    faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
+      ruby2_keywords
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
     ffi (1.13.1)
@@ -318,6 +319,7 @@ GEM
       rubocop (>= 0.87.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.10.1)
+    ruby2_keywords (0.0.2)
     rubyzip (2.3.0)
     rufus-scheduler (3.6.0)
       fugit (~> 1.1, >= 1.1.6)
@@ -442,7 +444,7 @@ DEPENDENCIES
   codecov (= 0.2.12)
   country_select (~> 4.0)
   database_cleaner-active_record (= 1.8.0)
-  discourse_api (= 0.42.0)
+  discourse_api (= 0.44.0)
   dotenv-rails (= 2.7.6)
   e2mmap
   factory_bot (~> 5.0, >= 5.0.2)
