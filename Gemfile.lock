@@ -348,9 +348,9 @@ GEM
       simplecov-html (~> 0.11)
     simplecov-html (0.12.3)
     sixarm_ruby_unaccent (1.2.0)
-    skylight (4.3.1)
-      skylight-core (= 4.3.1)
-    skylight-core (4.3.1)
+    skylight (4.3.2)
+      skylight-core (= 4.3.2)
+    skylight-core (4.3.2)
       activesupport (>= 4.2.0)
     solargraph (0.39.17)
       backport (~> 1.1)
@@ -396,7 +396,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.9)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     unicode_utils (1.4.0)
@@ -427,7 +427,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yard (0.9.25)
-    zeitwerk (2.4.1)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
@@ -476,7 +476,7 @@ DEPENDENCIES
   shoulda-matchers (~> 4.1, >= 4.1.2)
   sidekiq (= 6.1.2)
   sidekiq-scheduler (= 3.0.1)
-  skylight (= 4.3.1)
+  skylight (= 4.3.2)
   solargraph (= 0.39.17)
   spring
   spring-watcher-listen (~> 2.0.0)
